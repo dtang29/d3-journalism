@@ -1,53 +1,53 @@
 ﻿id,state,abbr,depression,medianIncome
-1,Alabama,AL,21.3,1841217
-2,Alaska,AK,15.6,249659
-4,Arizona,AZ,18.7,2428743
-5,Arkansas,AR,21.5,1131288
-6,California,CA,13.3,12758648
-8,Colorado,CO,17,2039592
-9,Connecticut,CT,18.3,1355817
-10,Delaware,DE,18.3,349743
-11,District of Columbia,DC,18.1,277378
-12,Florida,FL,16.2,7328046
-13,Georgia,GA,18.3,3587521
-15,Hawaii,HI,10.7,450769
-16,Idaho,ID,19.5,591587
-17,Illinois,IL,16.7,4772421
-18,Indiana,IN,20.7,2502739
-19,Iowa,IA,18.7,1241471
-20,Kansas,KS,18.6,1109280
-21,Kentucky,KY,23.9,1712094
-22,Louisiana,LA,18.7,1718194
-23,Maine,ME,23.7,549841
-24,Maryland,MD,15.9,2165438
-25,Massachusetts,MA,21.7,2549336
-26,Michigan,MI,20.5,3834574
-27,Minnesota,MN,18.2,2129195
-28,Mississippi,MS,19.9,1095823
-29,Missouri,MO,21.7,2354809
-30,Montana,MT,20.4,410962
-31,Nebraska,NE,17.7,740765
-32,Nevada,NV,15.6,1021519
-33,New Hampshire,NH,21,519756
-34,New Jersey,NJ,13.4,3194844
-35,New Mexico,NM,21.1,760916
-36,New York,NY,15.9,7282398
-37,North Carolina,NC,19,3790620
-38,North Dakota,ND,17.3,305431
-39,Ohio,OH,20.9,4593172
-40,Oklahoma,OK,21.8,1459759
-41,Oregon,OR,24,1535511
-42,Pennsylvania,PA,19.7,4945972
-44,Rhode Island,RI,20.6,409654
-45,South Carolina,SC,19.9,1826914
-46,South Dakota,SD,16.6,334475
-47,Tennessee,TN,21.4,2509665
-48,Texas,TX,14.6,9277197
-49,Utah,UT,20.7,918370
-50,Vermont,VT,21.8,257229
-51,Virginia,VA,17.4,3083820
-53,Washington,WA,21.6,2679601
-54,West Virginia,WV,23.6,735375
-55,Wisconsin,WI,17,2307685
-56,Wyoming,WY,19,232594
-72,Puerto Rico,PR,18.5,1233490
+1,Alabama,AL,21.3,42830
+2,Alaska,AK,15.6,71583
+4,Arizona,AZ,18.7,50068
+5,Arkansas,AR,21.5,41262
+6,California,CA,13.3,61933
+8,Colorado,CO,17,61303
+9,Connecticut,CT,18.3,70048
+10,Delaware,DE,18.3,59716
+11,District of Columbia,DC,18.1,71648
+12,Florida,FL,16.2,47463
+13,Georgia,GA,18.3,49321
+15,Hawaii,HI,10.7,69592
+16,Idaho,ID,19.5,47861
+17,Illinois,IL,16.7,57444
+18,Indiana,IN,20.7,49446
+19,Iowa,IA,18.7,53712
+20,Kansas,KS,18.6,52504
+21,Kentucky,KY,23.9,42958
+22,Louisiana,LA,18.7,44555
+23,Maine,ME,23.7,49462
+24,Maryland,MD,15.9,73971
+25,Massachusetts,MA,21.7,69160
+26,Michigan,MI,20.5,49847
+27,Minnesota,MN,18.2,61481
+28,Mississippi,MS,19.9,39680
+29,Missouri,MO,21.7,48363
+30,Montana,MT,20.4,46328
+31,Nebraska,NE,17.7,52686
+32,Nevada,NV,15.6,51450
+33,New Hampshire,NH,21,66532
+34,New Jersey,NJ,13.4,71919
+35,New Mexico,NM,21.1,44803
+36,New York,NY,15.9,58878
+37,North Carolina,NC,19,46556
+38,North Dakota,ND,17.3,59029
+39,Ohio,OH,20.9,49308
+40,Oklahoma,OK,21.8,47529
+41,Oregon,OR,24,51075
+42,Pennsylvania,PA,19.7,53234
+44,Rhode Island,RI,20.6,54891
+45,South Carolina,SC,19.9,45238
+46,South Dakota,SD,16.6,50979
+47,Tennessee,TN,21.4,44361
+48,Texas,TX,14.6,53035
+49,Utah,UT,20.7,60922
+50,Vermont,VT,21.8,54166
+51,Virginia,VA,17.4,64902
+53,Washington,WA,21.6,61366
+54,West Virginia,WV,23.6,41059
+55,Wisconsin,WI,17,52622
+56,Wyoming,WY,19,57055
+72,Puerto Rico,PR,18.5,18928
