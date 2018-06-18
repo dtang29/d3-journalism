@@ -77,9 +77,60 @@ d3.csv("data.csv", function(error, data) {
     .append("circle")
     .attr("cx", d => xLinearScale(d.medianIncome))
     .attr("cy", d => yLinearScale(d.depression))
-    .attr("r", "10")
+    .attr("r", "15")
     .attr("fill", "teal")
-    .attr("opacity", ".5");
+    .attr("opacity", ".5")
+    
+    // Create tool tips
+    var toolTip = d3.tip()
+    .attr("class", "tooltip")
+    .offset([150, -60])
+    .html(function(d) {
+      return (`<center>${d.abbr}</center><hr>% People Reported with Depression:<br> ${d.depression}<br><br>Median Household Income: ${d.medianIncome}`);
+    });
+
+    //Create the tool tip
+    chartGroup.call(toolTip);
+
+    //Create event listeners
+    circlesGroup.on("click", function(data) {
+        toolTip.show(data);
+    })
+        .on("mouseout", function(data, index) {
+            toolTip.hide(data);
+        });
+
+    //Append a label to each data point
+    chartGroup.selectAll("text")
+        .data(data)
+        .enter()
+        .text(function(data) {
+            return data.abbr
+        })
+        .attr("x", function(data) {
+            return xLinearScale(data.depression);
+        })
+        .attr("y", function(data) {
+            return yLinearScale(data.medianIncome);
+        })
+        .attr("font-size", "12px")
+        .attr("text-anchor", "middle")
+        
+    
+    //Create axes labels
+    chartGroup.append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0 - margin.left + 5)
+    .attr("x", 0 - (chartHeight / 2))
+    .attr("dy", "1em")
+    .attr("class", "axisText")
+    .text("% of people that said they have Depression");
+
+    chartGroup.append("text")
+    .attr("transform", `translate(${chartWidth / 2}, ${chartHeight + margin.top - 10 })`)
+    .attr("class", "axisText")
+    .text("Median Household Income");
+    
     
 
 })

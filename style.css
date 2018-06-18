@@ -1,4 +1,4 @@
-.line {
+/* .line {
     fill: none;
     stroke-width: 2px;
   }
@@ -22,5 +22,26 @@
   
   .dow-text {
     fill: green;
+  }
+   */
+  .tooltip {
+    position: absolute;
+    width: 155px;
+    height: 130px;
+    padding: 2px;
+    padding-top: 5px;
+    font: 12px sans-serif;
+    color: white;
+    text-align: center;
+    background:rgb(41, 158, 212);
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .axisText {
+    font-family: sans-serif;
+    font-weight: bold;
+    fill: #1457bb;
+    text-anchor: middle;
   }
   
